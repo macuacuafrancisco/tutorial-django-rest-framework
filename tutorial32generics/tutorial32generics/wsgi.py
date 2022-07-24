@@ -1,5 +1,5 @@
 """
-WSGI config for tutorial3mixins project.
+WSGI config for tutorial32generics project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tutorial3mixins.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tutorial32generics.settings')
 
 application = get_wsgi_application()
